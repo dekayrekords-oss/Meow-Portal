@@ -1,0 +1,7 @@
+.DS_Store
+*.apk
+*.exe
+*.dmg
+*.keystore
+*.jks
+.env
