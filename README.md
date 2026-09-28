@@ -4,15 +4,9 @@ An AI companion and illustrated desk for your Portal, with guided setup for Wind
 
 ![Meow Desk on Portal](images/meow-desk.png)
 
-### Meet Lumen
+![Lumen cat on Portal](images/lumen-cat-portal.png)
 
-![Lumen companion preview with a purple wizard hat](images/lumen-preview.png)
-
-### Flow
-
-![Flow interface preview showing contextual cards and suggested actions](images/flow-preview.png)
-
-*Lumen and Flow preview visuals. Layout and available features may vary on Portal.*
+![Flow on Portal](images/flow-portal.png)
 
 ## Release status
 
@@ -20,9 +14,12 @@ An AI companion and illustrated desk for your Portal, with guided setup for Wind
 
 - [Download for Windows](https://github.com/dekayrekords-oss/Meow-Portal/releases/download/portal-5/Meow-Portal-Setup-Windows.exe)
 - [Download for Mac](https://github.com/dekayrekords-oss/Meow-Portal/releases/download/portal-5/Meow-Portal-Setup-Mac.dmg)
+- [Download the app APK for direct sideloading](https://github.com/dekayrekords-oss/Meow-Portal/releases/download/portal-5/meow-portal.apk)
 - [Release notes and checksums](https://github.com/dekayrekords-oss/Meow-Portal/releases/tag/portal-5)
 
 Both apps include Meow **1.5.18-portal.5** and guide you through USB installation. No source-code build or Android Studio is needed. The setup interface opens locally in your browser.
+
+**Already set up for sideloading?** Download `meow-portal.apk` above and use your existing sideloading tool, or run `adb install -r meow-portal.apk` with only your intended Portal connected and authorized. It is the same signed build 5 included in the installers. If you already have build 5, no reinstall is needed. Back up before updating; do not uninstall to bypass a signature or downgrade error.
 
 This preview is not a fully validated production release. Desktop publisher signing/notarization, real Windows USB testing, clean-computer Mac testing and build 5 physical install/update testing remain pending. Your operating system may warn or block opening the installer. Read the release notes before installing. Automatic updates are not enabled; download a newer installer to update.
 
