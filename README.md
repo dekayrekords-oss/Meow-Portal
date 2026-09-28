@@ -6,9 +6,17 @@ An AI companion and illustrated desk for your Portal, with guided setup for Wind
 
 ## Release status
 
-**In preparation. No public installer release is available yet.** Windows and Mac preview installers have been built, but physical-device update testing, Windows USB testing, distribution signing and the release review are still in progress. Downloads will appear under [Releases](https://github.com/dekayrekords-oss/Meow-Portal/releases) when ready.
+**Public Preview 5 is available.** Download the installer app for your computer:
 
-This edition supports the tested Portal identified by Android as **omni**, running Android 10 with ARM64. Other Portal models are not yet verified. The planned desktop installers target Windows 10/11 x64 and macOS 13+ on Intel and Apple Silicon.
+- [Download for Windows](https://github.com/dekayrekords-oss/Meow-Portal/releases/download/portal-5/Meow-Portal-Setup-Windows.exe)
+- [Download for Mac](https://github.com/dekayrekords-oss/Meow-Portal/releases/download/portal-5/Meow-Portal-Setup-Mac.dmg)
+- [Release notes and checksums](https://github.com/dekayrekords-oss/Meow-Portal/releases/tag/portal-5)
+
+Both apps include Meow **1.5.18-portal.5** and guide you through USB installation. No source-code build or Android Studio is needed. The setup interface opens locally in your browser.
+
+This preview is not a fully validated production release. Desktop publisher signing/notarization, real Windows USB testing, clean-computer Mac testing and build 5 physical install/update testing remain pending. Your operating system may warn or block opening the installer. Read the release notes before installing. Automatic updates are not enabled; download a newer installer to update.
+
+This edition supports the tested Portal identified by Android as **omni**, running Android 10 with ARM64. Other Portal models are not yet verified. The desktop installers target Windows 10/11 x64 and macOS 13+ on Intel and Apple Silicon.
 
 ## How setup works
 
@@ -37,6 +45,6 @@ Before a major update, export an encrypted backup from Meow and save it outside 
 
 ## About this repository
 
-This repository hosts public setup documentation and, when validated, downloadable release files. The Android application source and signing keys are private and are not included here. Automatic latest-version downloads will be enabled after a stable release is published and tested.
+This repository hosts public setup documentation and compiled installer downloads under Releases. The Android application source and signing keys are private and are not included here. Automatic latest-version downloads will be enabled after a stable release is published and tested.
 
 Meow is not affiliated with or endorsed by Meta. Third-party software and services remain subject to their respective terms. No open-source license for the Android application is granted by this repository.
