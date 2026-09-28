@@ -4,6 +4,16 @@ An AI companion and illustrated desk for your Portal, with guided setup for Wind
 
 ![Meow Desk on Portal](images/meow-desk.png)
 
+### Meet Lumen
+
+![Lumen companion preview with a purple wizard hat](images/lumen-preview.png)
+
+### Flow
+
+![Flow interface preview showing contextual cards and suggested actions](images/flow-preview.png)
+
+*Lumen and Flow preview visuals. Layout and available features may vary on Portal.*
+
 ## Release status
 
 **Public Preview 5 is available.** Download the installer app for your computer:
